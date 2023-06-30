@@ -1,0 +1,116 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.originalBody{
+    background-color: rgb(73, 73, 233);
+    width: 80%;
+    height: 80vh;
+    border: 2.5px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px 20px;
+    /* padding: 5px; */
+    gap: 7px;
+    justify-content: center;
+    align-items: center;
+}
+.joseph{
+    width: 49%;
+    height: 97%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.peter{
+    width: 49%;
+    height: 97%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+.josephleft{
+    width: 100%;
+    height: 49.5%;
+    /* background-color: seagreen; */
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+
+}
+.peterright{
+    width: 49%;
+    height: 100%;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.josephtop{
+    width: 100%;
+    height: 49.5%;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: row;
+    gap: 11px;
+}
+.peterbuttom{
+    width: 50%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Desireleft{
+    width: 49%;
+    height: 100%;
+    background-color: #fff;
+}
+.Desireright{
+    width: 49%;
+    height: 100%;
+    background-color: violet;
+}
+.Favourleft{
+    width: 49%;
+    height: 100%;
+    background-color: yellow;
+}
+.Favourright{
+    width: 49%;
+    height: 100%;
+    background-color: indigo;
+}
+.Fortunetop{
+    width: 100%;
+    height: 49%;
+    background-color: goldenrod;
+}
+.Fortunebuttom{
+    width: 100%;
+    height: 49%;
+    background-color: palevioletred;
+}
+.Fridaytop{
+    width: 100%;
+    height: 49%;
+    background-color: #2e1919;
+}
+.Fridaybuttom{
+   width: 100%;
+   height: 49%;
+   background-color: #f54747;
+}
