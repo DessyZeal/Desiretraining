@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 75px;
+
+}
+.mainBody{
+    width: 75%;
+    height: 80vh;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.Header{
+    width: 100%;
+    height: 10%;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.semiHeader{
+    width: 100%;
+    height: 20%;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    width: 100%;
+    height: 6%;
+    /* background-color: gray; */
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.perfecto{
+    background-color: gray;
+}
+.section{
+    width: 100%;
+    height: 45%;
+    /* background-color: gray; */
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sectionleft{
+    width: 60%;
+    height: 100%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sectionright{
+    width: 40%;
+    height: 100%;
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.up{
+    background-color: gray;
+    height: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.down{
+    background-color: gray;
+    height: 51%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    width: 100%;
+    height: 12%;
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
